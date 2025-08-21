@@ -11,7 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 // OpenAPI (optional)
 builder.Services.AddOpenApi();
 
-//////////////////////////////////////
+///working with another branch 
 // Bind RabbitMQ settings from appSettings.json
 builder.Services.Configure<RabbitMqOptions>(
     builder.Configuration.GetSection("RabbitMq"));
